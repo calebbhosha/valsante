@@ -391,7 +391,10 @@ footer {
 
 @media (max-width: 400px) {
     .logo-container {
-        padding: 5% 0 0 30%;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .navigation {
