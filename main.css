@@ -390,6 +390,14 @@ footer {
 }
 
 @media (max-width: 400px) {
+    .logo-container {
+        padding: 5% 0 0 30%;
+    }
+
+    .navigation {
+        display: none;
+    }
+
     h1 {
         font-size: 2em;
     }
@@ -412,5 +420,19 @@ footer {
 
     .active-image img {
         width: 100%;
+    }
+
+    footer .links {
+        display: none;
+    }
+
+    .top-footer {
+        grid-template-columns: 1fr;
+    }
+
+    .social {
+        margin-top: 25px;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 }
