@@ -241,6 +241,12 @@ h2 {
     grid-template-columns: 1fr 2fr;
 }
 
+@media (max-width:1000px) {
+    .about-container {
+        width: 85%;
+    }
+}
+
 .profile img {
     width: 200px;
 }
@@ -249,7 +255,7 @@ h2 {
     background: rgb(51, 51, 51);
     color: white;
     padding: 15px;
-    clip-path: polygon(0 0, 250px 5%, 250px 100%, 0 95%);
+    clip-path: polygon(0px 0px, 221px 3.68%, 203px 97.37%, 0px 95%);
     margin: -10px;
     border: 2px solid white;
 }
@@ -369,6 +375,14 @@ footer {
         grid-template-columns: 1fr;
         width: 90%;
         justify-items: center;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+
+    .profile {
+        margin-bottom: 20px;
     }
 }
 
