@@ -417,6 +417,10 @@ footer {
         font-size: .8em;
     }
 
+    #about-heading {
+        text-align: left;
+    }
+
     .active-image {
         width: 70%;
     }
