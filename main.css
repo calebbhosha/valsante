@@ -29,6 +29,7 @@ body {
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
 }
 
 .logo-container {
@@ -202,6 +203,7 @@ h2 {
 .about {
     background: var(--valsante-brown);
     clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+    -webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
     padding: 100px 0;
     margin: 50px 0 0;
 }
@@ -256,6 +258,7 @@ h2 {
     color: white;
     padding: 15px;
     clip-path: polygon(0px 0px, 221px 3.68%, 203px 97.37%, 0px 95%);
+    -webkit-clip-path: polygon(0px 0px, 221px 3.68%, 203px 97.37%, 0px 95%);
     margin: -10px;
     border: 2px solid white;
 }
