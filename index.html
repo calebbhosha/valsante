@@ -41,7 +41,7 @@
         </h2>
         <div class="product-container">
             <div class="product-image-selector">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.69 80.34" class="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.69 80.34" class="arrow" id="left_arrow">
                     <defs>
                         <style>
                             .cls-1 {
@@ -59,10 +59,10 @@
                 </svg>
 
                 <div class="active-image">
-                    <img src="./images/products/valsante bottle1.jpg" alt="product">
+                    <img src="./images/products/valsante bottle2.jpg" class=" active-image-js" alt="product">
                 </div>
 
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.69 80.34" class="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.69 80.34" class="arrow" id="right_arrow">
                     <defs>
                         <style>
                             .cls-1 {
@@ -79,21 +79,28 @@
                     </g>
                 </svg>
             </div>
-            <div class="product-description-container">
-                <h4 class="product-title">rosewater</h4>
-                <div class="pricing">US$10.00 / 50ml bottle</div>
-                <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                    mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ex.</p>
+            <div class="json-holder">
+                <div class="product-description-container">
+                    <h4 class="product-title">sango oil</h4>
+                    <div class="pricing">US$13.00 / 100ml bottle</div>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                        mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ex.</p>
+                </div>
             </div>
         </div>
-        <div class="product-images">
+        <!-- <div class="product-images">
             <img src="./images/products/valsante bottle1.jpg" alt="" class="product-image">
             <img src="./images/products/valsante bottle2.jpg" alt="" class="product-image">
             <img src="./images/products/valsante bottle3.jpg" alt="" class="product-image">
             <img src="./images/products/valsante bottle4.jpg" alt="" class="product-image">
             <img src="./images/products/valsante bottle1.jpg" alt="" class="product-image">
             <img src="./images/products/valsante bottle2.jpg" alt="" class="product-image">
-        </div>
+        </div> -->
+
+        <p class="order-instructions">
+            You can buy our products individually or we can also give you at wholesale price (discount 15%) if you buy a
+            minimum of 15 per product. Click <a href="#">here</a> to order from us!
+        </p>
     </section>
 
     <section class="about">
@@ -105,10 +112,12 @@
         </div>
         <div class="about-container">
             <div class="profile">
-                <img src="./images/other/valerie.jpg" alt="valerie" class="profile-image">
-                <div class="profile-name">
-                    <h3>Valerie Chigunde</h3>
-                    <h5>Chief Executive Officer</h5>
+                <div class="profile-container">
+                    <img src="./images/other/valerie.jpg" alt="valerie" class="profile-image">
+                    <div class="profile-name">
+                        <h3>Valerie Chigunde</h3>
+                        <h5>Chief Executive Officer</h5>
+                    </div>
                 </div>
             </div>
             <div class="about-description">
@@ -162,6 +171,8 @@
             <p>&copy; 2020 Valsante Organics (Pvt) Ltd. All Rights Reserved. #wechoosetsime</p>
         </div>
     </footer>
+
+    <script src="./main.js"></script>
 
 </body>
 
