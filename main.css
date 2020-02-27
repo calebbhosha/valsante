@@ -225,6 +225,10 @@ h2 {
 .order-instructions {
     width: 80%;
     text-align: center;
+    margin: 0 auto;
+    border: 2px solid var(--valsante-brown);
+    padding: 2px;
+    color: brown;
 }
 
 /* about***************************************************** */
@@ -466,5 +470,9 @@ footer {
         margin-top: 25px;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    .order-instructions {
+        width: 95%;
     }
 }
