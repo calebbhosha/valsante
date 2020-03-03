@@ -5,6 +5,16 @@ let productHolder = document.querySelector('.json-holder');
 let leftArrow = document.querySelector('#left_arrow');
 let rightArrow = document.querySelector('#right_arrow');
 
+let contactUs = document.querySelector('#contact-us');
+let contactForm = document.querySelector('.contact-form');
+let contactBars = document.querySelector('.contact-bars');
+let contactBarLines = document.querySelectorAll('.bar');
+let submitBtn = document.querySelector('.submit');
+let formSectionToHide = document.querySelector('.form-to-be-hidden');
+
+let visitorName = document.querySelector('.name');
+let queryMessage = document.querySelector('textarea');
+
 productRequest.onreadystatechange = function () {
     if (this.status == 200 && this.readyState == 4) {
         let products = JSON.parse(this.responseText);
@@ -122,3 +132,33 @@ leftArrow.addEventListener('click', e => {
         }
     }
 });
+
+contactUs.addEventListener('click', e => {
+    e.preventDefault();
+    contactForm.classList.remove('contact-form-hide');
+    contactForm.classList.add('contact-form-show');
+    contactBarLines[0].classList.add('bar-top');
+    contactBarLines[1].classList.add('bar-bottom');
+
+    clearForms();
+
+    formSectionToHide.classList.remove('.contact-form-hide');
+});
+
+contactBars.addEventListener('click', () => {
+    contactForm.classList.remove('contact-form-show');
+    contactForm.classList.add('contact-form-hide');
+
+    contactBarLines[0].classList.remove('bar-top');
+    contactBarLines[1].classList.remove('bar-bottom');
+});
+
+submitBtn.addEventListener('click', e => {
+    console.log('i work');
+    formSectionToHide.classList.add('contact-form-hide');
+});
+
+function clearForms() {
+    visitorName.value = '';
+    queryMessage.value = '';
+}
