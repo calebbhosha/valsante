@@ -1,33 +1,33 @@
 {
     "products": [{
-        "title": "rosewater",
+        "title": "mint oil hair butter",
         "price": "US$10.00 / 50ml bottle",
-        "description": "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ex.",
-        "link": "./images/products/valsante bottle1.jpg"
+        "description": "One of our best sellers. This menthol infused hair butter not only seals in moisture but it aids in healthy hair growth. It gives luster and shine making hair styling more manageable. The Mafura butter in the hair butter holds hair styles longer.",
+        "link": "./images/products/hair_butter_.jpeg"
     }, {
-        "title": "natural oil",
+        "title": "rosewater",
         "price": "US$15.00 / 100ml bottle",
-        "description": "2Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ex.",
-        "link": "./images/products/valsante bottle2.jpg"
+        "description": "Rosewater hydrates and conditions hair. To reduce hair breakage use rosewater on hair before combing to make it more manageable. Rosewater can also be used as a makeup setting spray or a face toner.",
+        "link": "./images/products/rosewater.jpeg"
     }, {
-        "title": "watery stuff",
+        "title": "hair oil",
         "price": "US$12.00 / 50ml bottle",
-        "description": "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ex.",
-        "link": "./images/products/valsante bottle3.jpg"
+        "description": "Our hair oil boosts recovers hairline, overall hair growth, relieves itchy scalp and dandruff. With active ingredients such as rosemary and peppermint this lightweight oil is ideal for healthy hair growth.",
+        "link": "./images/products/hair_oil.jpeg"
     }, {
-        "title": "unnatural oil",
+        "title": "african black shampoo",
         "price": "US$15.00 / 100ml bottle",
-        "description": "4Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ex.",
-        "link": "./images/products/valsante bottle4.jpg"
+        "description": "When it comes to wash day, we believe you dont have to take all day. Our Sulfate free formula is gentle for everyday use to cleanse hair and scalp to deal with product build up that causes itchiness and dandruff.",
+        "link": "./images/products/shampoo.png"
     }, {
-        "title": "that product",
+        "title": "Marula Oil Hair butter",
         "price": "US$17.00 / 50ml bottle",
-        "description": "5Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ex.",
-        "link": "./images/products/valsante bottle1.jpg"
+        "description": "This sweet scented Marula Oil Hair butter is lightly formulated and keeps hair looking healthy and beautiful.  Richly blended to hold hair styles, seal in moisture and reducing hair breakage this butter is gentle enough for you and your little ones.",
+        "link": "./images/products/hair_butter.jpeg"
     }, {
-        "title": "sango oil",
+        "title": "leave-in conditioner",
         "price": "US$13.00 / 100ml bottle",
-        "description": "6Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, mollitia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ex.",
-        "link": "./images/products/valsante bottle2.jpg"
+        "description": "Milk and Honey Leave-In Conditioner is formulated using pure raw honey to keep your hair soft, supple and hydrated longer.  This can be used to condition, de-tangle and moistourise your hair. The best part is you don't have to wash t out.",
+        "link": "./images/products/conditioner.jpeg"
     }]
 }
